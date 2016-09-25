@@ -1,29 +1,29 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<title>{{ page.title }}</title>
-		<!-- link to main stylesheet -->
-		<link rel="stylesheet" type="text/css" href="/css/main.css">
+  <head>
+    <title>{{ page.title }}</title>
+    <!-- link to main stylesheet -->
+    <link rel="stylesheet" type="text/css" href="/css/main.css">
     {% include analytics.html%}
    <!-- analytics above -->
-	</head>
-	<body>
-		<nav>
-			<ul>
-				<li><a href="/">Home</a></li>
-				<li><a href="/blog">Blog</a></li>
-			</ul>
-		</nav>
-		<div class="container">
+  </head>
+  <body>
+    <nav>
+      <ul>
+        <li><a href="/">Home</a></li>
+        <li><a href="/blog">Blog</a></li>
+      </ul>
+    </nav>
+    <div class="container">
 
-			{{ content }}
+      {{ content }}
 
-		</div><!-- /.container -->
+    </div><!-- /.container -->
     <footer>
         <ul>
             <li><a href="mailto:ollyjshaw@gmail.com">email</a></li>
             <li><a href="https://github.com/ollyjshaw">github.com/ollyjshaw</a></li>
       </ul>
     </footer>
-	</body>
+  </body>
 </html>
